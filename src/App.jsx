@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react';
 import './App.css';
 
-const SIGNAL_SERVER_URL = 'wss://backend-calling-app.onrender.com/'';
+const SIGNAL_SERVER_URL = 'wss://backend-calling-app.onrender.com/';
 
 function App() {
   const [room, setRoom] = useState('');
